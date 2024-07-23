@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> cb726a6 (Backend+frontend completed)
 import Conversation from "../models/conversation.model.js";
 import Message from "../models/message.model.js";
 import { getReceiverSocketId, io } from "../socket/socket.js";
@@ -70,8 +67,4 @@ export const getMessages = async (req, res) => {
 		console.log("Error in getMessages controller: ", error.message);
 		res.status(500).json({ error: "Internal server error" });
 	}
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> cb726a6 (Backend+frontend completed)
